@@ -15,7 +15,7 @@ function getFolders($target_folder, $extra_path) {
 	   $dir = $root_folder . "/" . $namearq;
 	   
 	   if(is_dir($dir)){
-		  $folder_dir .= "\t\t\t\t<li><img src=\"folder.png\" width=\"18\" height=\"15\" alt=\"\"><a href=" . $extra_path . "/" . $namearq . 'target="_blank">' .  $namearq . "<br></a></li>\n";
+		  $folder_dir .= "\t\t\t\t<li><img src=\"folder.png\" width=\"18\" height=\"15\" alt=\"\"><a href=" . $extra_path . "/" . $namearq . '" target="_blank">' .  $namearq . "<br></a></li>\n";
 	   } 
 	}
 	return $folder_dir;
